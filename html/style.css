@@ -1,0 +1,65 @@
+
+* {
+    font-size: 1.2em;
+}
+
+#alegreya:before {
+    content: "Alegreya";
+    display: block;
+    border-bottom: 1px dotted black;
+}
+
+#alegreya {
+    font-family: "Alegreya";
+}
+
+#overlock:before {
+    content: "Overlock";
+    display: block;
+    border-bottom: 1px dotted black;
+}
+#overlock {
+    font-family: "Overlock";
+}
+
+#playfair:before {
+    content: "Playfair Display";
+    display: block;
+    border-bottom: 1px dotted black;
+}
+#playfair {
+    font-family: "Playfair Display";
+}
+
+#sourcesans:before {
+    content: "Source Sans";
+    display: block;
+    border-bottom: 1px dotted black;
+}
+#sourcesans {
+    font-family: "Source Sans Pro";
+}
+
+div.logo {
+    position: relative;
+    display: inline;
+    width: 25%;
+}
+
+div.typeblock {
+    position: relative;
+    display: block;
+    margin: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 10px;
+}
+
+.logo01 {
+    color: grey;
+}
+
+.logo02 {
+    font-style: italic;
+    font-weight: 400;
+}
